@@ -39,7 +39,7 @@ function App() {
   return (
     <>
       <CustomCursor />
-      <SwitchTab />
+      {/* <SwitchTab /> */}
       <Router>
         <Routes>
           <Route path="/" element={<HomeOne />} />
